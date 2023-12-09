@@ -27,7 +27,7 @@ function Projects() {
     {
       imageUrl: require('../assets/foodPantry.png'),
       title:"Food Pantry Notification System (JavaScript, PHP)",
-      description: "A notification system for students at Portland Community College to inform them about ongoing specials and notify them when new food supplies are available.",
+      description: "A notification system with full CRUD functionality for students at Portland Community College to inform them about ongoing specials",
       githubLink: "https://github.com/yourgithub/project1",
       demoLink: "https://demo.project1.com"
     },
@@ -41,7 +41,7 @@ function Projects() {
     {
       imageUrl: require('../assets/BikeGallery.png'),
       title:"Bike Gallery (Ruby on Rails)",
-      description: "Our team developed a bike shop website with full CRUD functionality and Devise authentication. The platform utilizes Active Storage and AWS, empowering authorized admins to efficiently upload and manage photos.",
+      description: "A bike shop website with full CRUD functionality, Devise Authentication, Active Storage and AWS. Authorized admins can upload and manage photos",
       githubLink: "https://github.com/pangtodd/bike_gallery",
     },
     //Third image url
@@ -59,8 +59,8 @@ function Projects() {
   ];
   return (
     <React.Fragment>
-      <h1>Projects</h1>
       <div className="Carousel">
+      <h1>Projects</h1>
         <Carousel
           responsive={responsive}
           autoPlay={true}
